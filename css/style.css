@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+:root {
+    --font-primaria: "DM Sans", sans-serif;
+    --cor-font1: #F2F2F2;
+    --cor-font2: #D9D9D9;
+    
+    --cor-primaria: #0D0D0D;
+    --cor-secundaria: #218C03;
+    --cor-extra1: #0F4001;
+    --cor-extra2: #2CBF04;
+    --cor-extra3: #38F205;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: var(--cor-primaria);
+    color: var(--cor-font1);*/
+    font-family: var(--font-primaria);
+}
+
+/* CSS Menu */
+.navbar {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav, ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+li,a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.star {
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+/* CSS Input */
